@@ -1,0 +1,442 @@
+[
+    {
+        "latin_name": "Cervus Celestis",
+        "chinese_name": "天角神鹿",
+        "visual_description": "一只昂首的鹿形轮廓，鹿角分叉延伸至北极星位置，身体由多段折线构成，前肢高抬似跃动姿态，尾部线条与后肢形成三角支撑结构",
+        "coherence_score": 7,
+        "filename": "constellation_04.png",
+        "file_path": "code/constellation_images/constellation_04.png"
+    },
+    {
+        "latin_name": "Cervus Stellatus",
+        "chinese_name": "星角鹿",
+        "visual_description": "一只昂首的鹿形轮廓，鹿角分叉延伸，身体由多段折线构成，四肢呈奔跑姿态",
+        "coherence_score": 7,
+        "filename": "constellation_06.png",
+        "file_path": "code/constellation_images/constellation_06.png"
+    },
+    {
+        "latin_name": "Aranea Magna",
+        "chinese_name": "巨蛛座",
+        "visual_description": "一只多足的蜘蛛，身体呈不规则多边形，八条细长的腿向四周延伸，部分腿部线条曲折，整体姿态仿佛在爬行",
+        "coherence_score": 7,
+        "filename": "constellation_01.png",
+        "file_path": "code/constellation_images/constellation_01.png"
+    },
+    {
+        "latin_name": "Phoenix Aeternus",
+        "chinese_name": "永恒火鸟座",
+        "visual_description": "一只昂首展翅的神鸟，喙部尖锐前伸，双翼呈波浪状延展，尾部如火焰般散开形成扇形轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_09.png",
+        "file_path": "code/constellation_images/constellation_09.png"
+    },
+    {
+        "latin_name": "Phoenicis Alatus",
+        "chinese_name": "赤焰展翼",
+        "visual_description": "一只昂首展翅的神话凤凰，头部高耸如火焰冠羽，双翼向两侧舒展，尾羽分叉如燃烧的流光，躯干蜿蜒中透出神圣威严",
+        "coherence_score": 7,
+        "filename": "constellation_05.png",
+        "file_path": "code/constellation_images/constellation_05.png"
+    },
+    {
+        "latin_name": "Cervus Mirabilis",
+        "chinese_name": "灵鹿座",
+        "visual_description": "一只昂首的灵鹿，双角分叉如星枝，躯干蜿蜒似银河，尾部轻扬指向天际",
+        "coherence_score": 7,
+        "filename": "constellation_07.png",
+        "file_path": "code/constellation_images/constellation_07.png"
+    },
+    {
+        "latin_name": "Cervus Volans",
+        "chinese_name": "飞角灵鹿",
+        "visual_description": "蜿蜒的线条构成鹿的轮廓，左部Vega区域似鹿首，多处分叉延伸如鹿角，右侧40Zet Her与65Del Her连线形成跃动的鹿身与分叉尾羽，整体呈现腾空飞驰的神鹿姿态",
+        "coherence_score": 7,
+        "filename": "constellation_03.png",
+        "file_path": "code/constellation_images/constellation_03.png"
+    },
+    {
+        "latin_name": "Bicephalus Draco",
+        "chinese_name": "双首蟠龙",
+        "visual_description": "蜿蜒的双首巨龙，身体呈S形曲折盘绕，左右两端各延伸出对称的头部结构，中段如龙脊般起伏，尾部线条锐利上扬",
+        "coherence_score": 7,
+        "filename": "constellation_08.png",
+        "file_path": "code/constellation_images/constellation_08.png"
+    },
+    {
+        "latin_name": "Cervus Ramifer",
+        "chinese_name": "分角灵鹿座",
+        "visual_description": "一只昂首的鹿形轮廓，分叉的鹿角向左上方延展，修长的躯干与四肢线条构成动态姿态，尾部末端点缀星点如飘逸鬃毛",
+        "coherence_score": 7,
+        "filename": "constellation_11.png",
+        "file_path": "code/constellation_images/constellation_11.png"
+    },
+    {
+        "latin_name": "Cervus Divinus",
+        "chinese_name": "神鹿座",
+        "visual_description": "一只昂首的神鹿，鹿角分叉如珊瑚枝，四肢舒展似在腾跃，尾部微卷成优雅弧线",
+        "coherence_score": 7,
+        "filename": "constellation_12.png",
+        "file_path": "code/constellation_images/constellation_12.png"
+    },
+    {
+        "latin_name": "Phoenicopterus Alatus",
+        "chinese_name": "飞翼凤座",
+        "visual_description": "一只展翅的凤凰，头部高昂，双翼向两侧舒展，尾羽呈分叉状延伸，整体线条呈现出动态的飞翔姿态",
+        "coherence_score": 7,
+        "filename": "constellation_00.png",
+        "file_path": "code/constellation_images/constellation_00.png"
+    },
+    {
+        "latin_name": "Arachne Magna",
+        "chinese_name": "织网蛛座",
+        "visual_description": "一只多足的蜘蛛，身体位于中心，多条分叉的腿向四周伸展，线条结构呈现出网状对称性，部分肢体末端带有卷曲形态",
+        "coherence_score": 7,
+        "filename": "constellation_02.png",
+        "file_path": "code/constellation_images/constellation_02.png"
+    },
+    {
+        "latin_name": "Avis Ignis",
+        "chinese_name": "赤焰神禽",
+        "visual_description": "一只昂首展翅的神话飞鸟，左侧线条构成修长颈部与羽冠，右侧分叉线条模拟火焰状尾羽，中央躯干连接两侧翼展，整体呈现振翅欲飞的动态姿态。",
+        "coherence_score": 7,
+        "filename": "constellation_16.png",
+        "file_path": "code/constellation_images/constellation_16.png"
+    },
+    {
+        "latin_name": "Arachnea Mysteriosa",
+        "chinese_name": "秘蛛座",
+        "visual_description": "一只张开多足的蜘蛛，中央隆起的身体向四周延伸出曲折的腿，部分线条如缠绕的蛛网般交错",
+        "coherence_score": 7,
+        "filename": "constellation_13.png",
+        "file_path": "code/constellation_images/constellation_13.png"
+    },
+    {
+        "latin_name": "Draco Serpens",
+        "chinese_name": "游龙蛇影",
+        "visual_description": "蜿蜒的龙形轮廓，头部有分叉角状结构，躯干呈S形弯曲，尾部延伸出锐利分叉，整体似神话中腾云驾雾的灵蛇与龙的融合体",
+        "coherence_score": 8,
+        "filename": "constellation_10.png",
+        "file_path": "code/constellation_images/constellation_10.png"
+    },
+    {
+        "latin_name": "Cervus Saltans",
+        "chinese_name": "跃鹿座",
+        "visual_description": "一只跃起的鹿，头部有分叉鹿角，身体线条流畅，四肢伸展呈奔跑姿态",
+        "coherence_score": 7,
+        "filename": "constellation_15.png",
+        "file_path": "code/constellation_images/constellation_15.png"
+    },
+    {
+        "latin_name": "Cervus Divinus",
+        "chinese_name": "神鹿座",
+        "visual_description": "一只昂首挺立的神鹿，分叉的鹿角如星芒般向两侧舒展，躯干线条流畅，前肢微屈似蓄势腾跃，尾部与后肢构成稳定三角支撑",
+        "coherence_score": 7,
+        "filename": "constellation_14.png",
+        "file_path": "code/constellation_images/constellation_14.png"
+    },
+    {
+        "latin_name": "Arachne Magna",
+        "chinese_name": "织蛛座",
+        "visual_description": "一只多足的神话蜘蛛，中央隆起的躯体向四周延伸出细长肢体，仿佛在星空中爬行",
+        "coherence_score": 7,
+        "filename": "constellation_17.png",
+        "file_path": "code/constellation_images/constellation_17.png"
+    },
+    {
+        "latin_name": "Draco Ramificus",
+        "chinese_name": "分叉龙",
+        "visual_description": "蜿蜒曲折的龙形轮廓，身体多处分叉形成类似龙爪与龙须的结构，头部昂起呈昂首姿态，尾部向两侧不规则延伸",
+        "coherence_score": 6,
+        "filename": "constellation_18.png",
+        "file_path": "code/constellation_images/constellation_18.png"
+    },
+    {
+        "latin_name": "Cervus Celestis",
+        "chinese_name": "天鹿",
+        "visual_description": "一只昂首的神鹿，分叉的鹿角向两侧延展，颈部与躯干线条流畅，尾部微微上扬",
+        "coherence_score": 7,
+        "filename": "constellation_22.png",
+        "file_path": "code/constellation_images/constellation_22.png"
+    },
+    {
+        "latin_name": "Draco Serpentinus",
+        "chinese_name": "星纹龙",
+        "visual_description": "蜿蜒的龙形生物，具有分叉的肢体和延伸的尾部，整体结构呈现出动态的爬行姿态，头部与躯干通过多节曲线连接，末端分叉如龙爪",
+        "coherence_score": 7,
+        "filename": "constellation_21.png",
+        "file_path": "code/constellation_images/constellation_21.png"
+    },
+    {
+        "latin_name": "Phoenix Magnificus",
+        "chinese_name": "辉煌凤凰",
+        "visual_description": "一只昂首展翅的神鸟，头部高耸如冠，双翼向两侧舒展，尾羽呈扇形散开，线条流畅且富有动态感",
+        "coherence_score": 7,
+        "filename": "constellation_24.png",
+        "file_path": "code/constellation_images/constellation_24.png"
+    },
+    {
+        "latin_name": "Arachnea Vastus",
+        "chinese_name": "巨蛛座",
+        "visual_description": "一个由多条不规则分支构成的中心节点结构，形似节肢动物的躯体向四周延伸出细长肢体，整体轮廓如同一只正在织网的巨型蜘蛛，肢体末端点缀着散落的光点",
+        "coherence_score": 6,
+        "filename": "constellation_20.png",
+        "file_path": "code/constellation_images/constellation_20.png"
+    },
+    {
+        "latin_name": "Phoenix Aeternus",
+        "chinese_name": "永生凤",
+        "visual_description": "一只展翅的神话凤凰，头部高昂，双翼舒展，尾羽呈流线型延伸，整体轮廓兼具动态与优雅",
+        "coherence_score": 7,
+        "filename": "constellation_19.png",
+        "file_path": "code/constellation_images/constellation_19.png"
+    },
+    {
+        "latin_name": "Cervus Stellatus",
+        "chinese_name": "星鹿座",
+        "visual_description": "一只昂首的鹿形生物，头部有分叉鹿角，躯干修长，四肢呈奔跑姿态，尾部线条流畅",
+        "coherence_score": 7,
+        "filename": "constellation_25.png",
+        "file_path": "code/constellation_images/constellation_25.png"
+    },
+    {
+        "latin_name": "Cervus Stellaris",
+        "chinese_name": "星角鹿",
+        "visual_description": "一只昂首的鹿，鹿角分叉繁复，四肢修长，尾部微扬",
+        "coherence_score": 7,
+        "filename": "constellation_23.png",
+        "file_path": "code/constellation_images/constellation_23.png"
+    },
+    {
+        "latin_name": "Aranea Stellaris",
+        "chinese_name": "星蛛座",
+        "visual_description": "中心密集区域似蜘蛛躯干，多条不规则延伸的线条如同细长的蛛腿，整体构成一张悬浮于黑暗中的立体蛛网结构",
+        "coherence_score": 6,
+        "filename": "constellation_28.png",
+        "file_path": "code/constellation_images/constellation_28.png"
+    },
+    {
+        "latin_name": "Hippocampus Stellaris",
+        "chinese_name": "星海马座",
+        "visual_description": "一只姿态优雅的海马，头部微扬，身体呈S形弯曲，尾部卷曲，背鳍与腹鳍的线条清晰可见，仿佛在星空中游弋",
+        "coherence_score": 7,
+        "filename": "constellation_32.png",
+        "file_path": "code/constellation_images/constellation_32.png"
+    },
+    {
+        "latin_name": "Cervus Aetherius",
+        "chinese_name": "天穹灵鹿",
+        "visual_description": "一只昂首挺立的鹿形生物，双角分叉如星云枝桠，躯干蜿蜒似银河脉络，尾部呈螺旋状星群结构，四肢由断续星线构成仿佛踏云而行",
+        "coherence_score": 7,
+        "filename": "constellation_27.png",
+        "file_path": "code/constellation_images/constellation_27.png"
+    },
+    {
+        "latin_name": "Draco Volutus",
+        "chinese_name": "旋龙座",
+        "visual_description": "一条身体蜿蜒盘旋的巨龙，头部高昂，尾部卷曲，分支线条如同龙翼与利爪，整体呈现动态的缠绕姿态",
+        "coherence_score": 7,
+        "filename": "constellation_26.png",
+        "file_path": "code/constellation_images/constellation_26.png"
+    },
+    {
+        "latin_name": "Draco Volans",
+        "chinese_name": "腾云飞龙",
+        "visual_description": "蜿蜒的龙形轮廓，头部有分叉鹿角状结构，躯干呈S形扭曲，尾部延伸出多节肢体，两侧线条如展开的龙翼",
+        "coherence_score": 7,
+        "filename": "constellation_29.png",
+        "file_path": "code/constellation_images/constellation_29.png"
+    },
+    {
+        "latin_name": "Draco Sinuatus",
+        "chinese_name": "曲龙",
+        "visual_description": "蜿蜒曲折的龙形轮廓，躯干呈S形弯曲，分叉线条似龙爪与羽翼",
+        "coherence_score": 7,
+        "filename": "constellation_34.png",
+        "file_path": "code/constellation_images/constellation_34.png"
+    },
+    {
+        "latin_name": "Serpens Multiplex",
+        "chinese_name": "多枝天蛇",
+        "visual_description": "一条蜿蜒的蛇形生物，主干分叉出多条扭曲的肢体，头部昂起（右上角），尾部卷曲（左下角），整体结构如同盘绕的灵蛇缠绕着抽象的树枝",
+        "coherence_score": 7,
+        "filename": "constellation_30.png",
+        "file_path": "code/constellation_images/constellation_30.png"
+    },
+    {
+        "latin_name": "Avis Aeterna",
+        "chinese_name": "永耀神鸟座",
+        "visual_description": "一只昂首振翅的神鸟，颈部修长，双翼呈锯齿状展开，尾部线条曲折如羽翼纷飞。",
+        "coherence_score": 7,
+        "filename": "constellation_31.png",
+        "file_path": "code/constellation_images/constellation_31.png"
+    },
+    {
+        "latin_name": "Arachnus Myriapodus",
+        "chinese_name": "万足蛛神",
+        "visual_description": "一只拥有众多细长肢体的神话蜘蛛，身体呈不规则多边形，多对分叉的腿向四周辐射延伸，部分肢体末端卷曲如触须。",
+        "coherence_score": 6,
+        "filename": "constellation_35.png",
+        "file_path": "code/constellation_images/constellation_35.png"
+    },
+    {
+        "latin_name": "Phoenicopterus Stellatus",
+        "chinese_name": "星羽凤凰",
+        "visual_description": "一只展翅的神话凤凰，头部朝向左侧，双翼呈放射状展开，尾部线条蜿蜒如火焰，中央主干连接多处分叉结构象征羽翼层次",
+        "coherence_score": 7,
+        "filename": "constellation_36.png",
+        "file_path": "code/constellation_images/constellation_36.png"
+    },
+    {
+        "latin_name": "Cthulhi Tentaculum",
+        "chinese_name": "触须秘龙座",
+        "visual_description": "一只拥有蜿蜒躯干和多支分叉触须的神话生物，中央隆起部分似头颅，触须向四周呈放射状伸展，末端分叉如龙爪",
+        "coherence_score": 7,
+        "filename": "constellation_33.png",
+        "file_path": "code/constellation_images/constellation_33.png"
+    },
+    {
+        "latin_name": "Draco Volans",
+        "chinese_name": "赤翼星龙",
+        "visual_description": "一条蜿蜒盘旋的东方神龙，龙首昂扬，龙身曲折延伸，两侧分叉如燃烧的赤色羽翼，尾部线条锐利如剑",
+        "coherence_score": 7,
+        "filename": "constellation_39.png",
+        "file_path": "code/constellation_images/constellation_39.png"
+    },
+    {
+        "latin_name": "Arachne Serpens",
+        "chinese_name": "灵蛛蛇座",
+        "visual_description": "一只缠绕着蛇形躯干的蜘蛛，多条分叉肢体向四周伸展，头部与尾部形成动态平衡",
+        "coherence_score": 7,
+        "filename": "constellation_40.png",
+        "file_path": "code/constellation_images/constellation_40.png"
+    },
+    {
+        "latin_name": "Cervus Multicornis",
+        "chinese_name": "天角神鹿",
+        "visual_description": "一只昂首挺立的神鹿，分叉的鹿角向两侧延展，蜿蜒的脊背连接螺旋状尾部，四肢末端延伸出细长分支，仿佛踏云奔腾的神话生物",
+        "coherence_score": 7,
+        "filename": "constellation_37.png",
+        "file_path": "code/constellation_images/constellation_37.png"
+    },
+    {
+        "latin_name": "Aranea Major",
+        "chinese_name": "巨蛛座",
+        "visual_description": "中心呈多边形躯体，多条细长分支向外延伸，形似正在织网的巨型蜘蛛，部分节点处红点密集如网结",
+        "coherence_score": 7,
+        "filename": "constellation_41.png",
+        "file_path": "code/constellation_images/constellation_41.png"
+    },
+    {
+        "latin_name": "Arachnus Multipedalis",
+        "chinese_name": "多足蛛妖",
+        "visual_description": "一只多足的蜘蛛状生物，中心躯体向外延伸出众多分叉的肢体，仿佛正在织网或爬行，部分肢体末端呈现卷曲的触须形态",
+        "coherence_score": 7,
+        "filename": "constellation_38.png",
+        "file_path": "code/constellation_images/constellation_38.png"
+    },
+    {
+        "latin_name": "Draco Multiplex",
+        "chinese_name": "多爪盘龙",
+        "visual_description": "蜿蜒曲折的龙形轮廓，躯干由多段折线构成，两侧延伸出分叉的附肢，形似神话中盘旋腾飞的多足巨龙，头部隐现于左侧分支末端",
+        "coherence_score": 7,
+        "filename": "constellation_44.png",
+        "file_path": "code/constellation_images/constellation_44.png"
+    },
+    {
+        "latin_name": "Scorpius Umbra",
+        "chinese_name": "幽影蝎",
+        "visual_description": "一只蜷曲的蝎子，尾部高高翘起呈钩状，前肢张开如钳，躯干分节明显，整体线条勾勒出攻击姿态的轮廓",
+        "coherence_score": 8,
+        "filename": "constellation_42.png",
+        "file_path": "code/constellation_images/constellation_42.png"
+    },
+    {
+        "latin_name": "Phoenix Magnificus",
+        "chinese_name": "华羽凤凰座",
+        "visual_description": "一只展翅的神话凤凰，头部微昂，双翼向两侧舒展形成对称弧线，尾羽修长且末端分叉，整体姿态如浴火重生般威严灵动",
+        "coherence_score": 7,
+        "filename": "constellation_46.png",
+        "file_path": "code/constellation_images/constellation_46.png"
+    },
+    {
+        "latin_name": "Draco Ramificatus",
+        "chinese_name": "分枝神龙",
+        "visual_description": "一条蜿蜒盘旋的神话巨龙，身体由多段分叉的线条构成，头部隐现于中央密集光点处，尾部延伸出细长分支，周身散落星辰般的光点如龙鳞闪烁",
+        "coherence_score": 7,
+        "filename": "constellation_43.png",
+        "file_path": "code/constellation_images/constellation_43.png"
+    },
+    {
+        "latin_name": "Arachnea Magna",
+        "chinese_name": "蛛神座",
+        "visual_description": "一只肢体分叉的节肢动物，形似蜘蛛，中心躯干向外延伸多条细长且分叉的肢体，整体结构复杂而富有动态感",
+        "coherence_score": 6,
+        "filename": "constellation_45.png",
+        "file_path": "code/constellation_images/constellation_45.png"
+    },
+    {
+        "latin_name": "Cervus Mythicus",
+        "chinese_name": "神鹿座",
+        "visual_description": "一只昂首的鹿，分叉的鹿角向两侧伸展，身体轮廓由曲折线条勾勒，仿佛跃动于星空",
+        "coherence_score": 7,
+        "filename": "constellation_47.png",
+        "file_path": "code/constellation_images/constellation_47.png"
+    },
+    {
+        "latin_name": "Aranea Magna",
+        "chinese_name": "天蛛座",
+        "visual_description": "一只具有多条细长足肢的节肢动物，中央躯干明显，足肢呈放射状分布，部分肢体末端带有分叉结构",
+        "coherence_score": 7,
+        "filename": "constellation_50.png",
+        "file_path": "code/constellation_images/constellation_50.png"
+    },
+    {
+        "latin_name": "Cervus Volans",
+        "chinese_name": "飞鹿座",
+        "visual_description": "一只昂首跃起的神鹿，分叉的鹿角如星芒舒展，躯干与尾部线条流畅，仿佛在星空中腾跃而行",
+        "coherence_score": 7,
+        "filename": "constellation_49.png",
+        "file_path": "code/constellation_images/constellation_49.png"
+    },
+    {
+        "latin_name": "Cervus Serpens",
+        "chinese_name": "灵角鹿",
+        "visual_description": "一只昂首的雄鹿，分叉的鹿角如藤蔓般向四周延伸，身体线条蜿蜒如蛇形，尾部与前肢形成对称的螺旋结构",
+        "coherence_score": 7,
+        "filename": "constellation_48.png",
+        "file_path": "code/constellation_images/constellation_48.png"
+    },
+    {
+        "latin_name": "Cervus Stellatus",
+        "chinese_name": "星鹿",
+        "visual_description": "一只昂首的鹿形轮廓，鹿角分叉如星芒，躯干与四肢线条舒展，尾部微扬似踏星而行",
+        "coherence_score": 7,
+        "filename": "constellation_53.png",
+        "file_path": "code/constellation_images/constellation_53.png"
+    },
+    {
+        "latin_name": "Aranea Magna",
+        "chinese_name": "巨蛛座",
+        "visual_description": "一只多足的蜘蛛，身体呈不规则多边形，多条细长的肢体向四周延伸",
+        "coherence_score": 7,
+        "filename": "constellation_52.png",
+        "file_path": "code/constellation_images/constellation_52.png"
+    },
+    {
+        "latin_name": "Cervus Divinus",
+        "chinese_name": "神鹿座",
+        "visual_description": "一只昂首挺立、鹿角分叉的神鹿，前肢微屈似蓄势奔跑，尾部修长且末端卷曲，脊背线条蜿蜒如流动星河",
+        "coherence_score": 7,
+        "filename": "constellation_51.png",
+        "file_path": "code/constellation_images/constellation_51.png"
+    },
+    {
+        "latin_name": "Aranea Magna",
+        "chinese_name": "巨蛛座",
+        "visual_description": "一只具有放射状肢体的节肢动物，中央躯干连接多组对称延伸的细长肢体，形似蜘蛛在织网时的动态姿态",
+        "coherence_score": 6,
+        "filename": "constellation_54.png",
+        "file_path": "code/constellation_images/constellation_54.png"
+    }
+]

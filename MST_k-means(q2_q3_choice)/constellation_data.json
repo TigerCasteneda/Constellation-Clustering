@@ -1,0 +1,306 @@
+[
+    {
+        "latin_name": "Serpens Xuan",
+        "chinese_name": "玄蛇",
+        "visual_description": "线条呈现蜿蜒曲折的形态，头部向上扬起，身体多次弯曲，尾部延伸，整体似一条盘旋的巨蛇",
+        "coherence_score": 7,
+        "filename": "constellation_05.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_05.png"
+    },
+    {
+        "latin_name": "Cervus Cursus",
+        "chinese_name": "奔鹿",
+        "visual_description": "由白色线条连接星点构成一只奔跑的鹿的轮廓，头部、躯干、四肢线条分明，呈现动态奔跑姿态",
+        "coherence_score": 7,
+        "filename": "constellation_06.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_06.png"
+    },
+    {
+        "latin_name": "Draco Obscurus",
+        "chinese_name": "玄龙",
+        "visual_description": "线条构成蜿蜒曲折的龙形轮廓，头部有角状延伸，身体多处转折起伏，尾部自然延伸，整体呈现游动的神话龙姿态",
+        "coherence_score": 7,
+        "filename": "constellation_09.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_09.png"
+    },
+    {
+        "latin_name": "Felis yao",
+        "chinese_name": "灵猫",
+        "visual_description": "由紫色星点连线构成的图案，整体轮廓类似一只蜷缩的猫，头部、躯干与尾巴的线条清晰呈现",
+        "coherence_score": 7,
+        "filename": "constellation_04.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_04.png"
+    },
+    {
+        "latin_name": "Canis Major",
+        "chinese_name": "犬",
+        "visual_description": "线条勾勒出类似奔跑犬类的轮廓，头部、躯干与四肢的折线结构清晰，尾部线条延伸自然，整体呈现动态的兽类姿态",
+        "coherence_score": 8,
+        "filename": "constellation_01.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_01.png"
+    },
+    {
+        "latin_name": "Phoenicis avium",
+        "chinese_name": "朱雀",
+        "visual_description": "白色连线构成的轮廓似展翅的神鸟，头部尖喙、颈部修长，翅膀舒展且尾部线条飘逸，整体形态契合神话中南方神鸟朱雀的特征",
+        "coherence_score": 7,
+        "filename": "constellation_07.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_07.png"
+    },
+    {
+        "latin_name": "Draco Sinensis",
+        "chinese_name": "应龙",
+        "visual_description": "线条连缀成蜿蜒盘绕的神兽形态，头部有角状延伸，身体呈曲折起伏，尾部向右侧延伸，整体似传说中应龙的身姿",
+        "coherence_score": 7,
+        "filename": "constellation_03.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_03.png"
+    },
+    {
+        "latin_name": "Phoenicis Major",
+        "chinese_name": "玄凤",
+        "visual_description": "线条构成展翅凤凰的轮廓，头部、颈部、翅膀及尾部结构清晰，羽翼分支与身体主干形成典型神鸟形态",
+        "coherence_score": 7,
+        "filename": "constellation_02.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_02.png"
+    },
+    {
+        "latin_name": "Cyanavis Caelus",
+        "chinese_name": "青鸾",
+        "visual_description": "白色线条勾勒出青鸾展翅的轮廓，头部尖锐、双翼舒展、尾羽分叉，青绿色星点如羽毛般分布于轮廓内，模拟神鸟的灵动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_10.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_10.png"
+    },
+    {
+        "latin_name": "Cervus Sprintus",
+        "chinese_name": "疾鹿",
+        "visual_description": "线条连接构成一只奔跑的鹿，头部、颈部、躯干与四肢的轮廓清晰，动态感强烈，具有典型的鹿类形态特征",
+        "coherence_score": 7,
+        "filename": "constellation_00.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_00.png"
+    },
+    {
+        "latin_name": "Testudo",
+        "chinese_name": "玄龟",
+        "visual_description": "白色线条勾勒出龟类的轮廓，头部前伸、四肢舒展，背甲呈弧形，星点似龟甲纹理，整体呈现爬行动物的生动动态感",
+        "coherence_score": 7,
+        "filename": "constellation_14.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_14.png"
+    },
+    {
+        "latin_name": "Sirena Maris",
+        "chinese_name": "鲛人",
+        "visual_description": "线条构成的轮廓类似人鱼（鲛人）的形态，身体弯曲，有头部与尾部的连贯结构，整体呈现游动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_12.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_12.png"
+    },
+    {
+        "latin_name": "Ophiocerastes",
+        "chinese_name": "巴蛇",
+        "visual_description": "线条构成类似一条盘绕爬行的巨蛇，身体弯曲起伏，尾部和躯干有明显的转折，整体呈现蛇形轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_17.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_17.png"
+    },
+    {
+        "latin_name": "Scorpio Arachnoides",
+        "chinese_name": "天蝎",
+        "visual_description": "线条连接形成的图案酷似蝎子，拥有分节的身体、弯曲且带刺的尾部及多足结构，各部分轮廓分明",
+        "coherence_score": 7,
+        "filename": "constellation_16.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_16.png"
+    },
+    {
+        "latin_name": "Draconis Luminis",
+        "chinese_name": "烛龙",
+        "visual_description": "星点连线构成的盘旋龙形，头部、躯干与尾部轮廓清晰，线条蜿蜒如神话中烛龙的形态",
+        "coherence_score": 7,
+        "filename": "constellation_15.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_15.png"
+    },
+    {
+        "latin_name": "Felis Libris",
+        "chinese_name": "狸猫",
+        "visual_description": "线条构成的图案似一只动态奔跑的猫，身体呈弯曲弧线，尾部细长延伸，四肢分叉清晰，整体充满动感",
+        "coherence_score": 6,
+        "filename": "constellation_13.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_13.png"
+    },
+    {
+        "latin_name": "Cervus Cornu",
+        "chinese_name": "角鹿",
+        "visual_description": "线条勾勒出类似有角鹿的轮廓，头部、躯干与多支角的形态依稀可辨，橙色星点分布于轮廓内，似鹿身点缀的光斑",
+        "coherence_score": 6,
+        "filename": "constellation_08.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_08.png"
+    },
+    {
+        "latin_name": "Arachnus",
+        "chinese_name": "蛛兽",
+        "visual_description": "线条构成的多足生物，形似蜘蛛，躯干与多条腿部结构清晰可见",
+        "coherence_score": 7,
+        "filename": "constellation_11.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_11.png"
+    },
+    {
+        "latin_name": "Felis Nigra",
+        "chinese_name": "黑猫",
+        "visual_description": "白色线条构成的轮廓呈现蹲伏猫的形态，头部有分叉状结构（类似猫耳），身体曲线与尾部延伸清晰可辨",
+        "coherence_score": 7,
+        "filename": "constellation_18.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_18.png"
+    },
+    {
+        "latin_name": "Scorpio",
+        "chinese_name": "毒蝎",
+        "visual_description": "线条构成的形状类似蝎子，具有分叉的钳状结构、弯曲的尾部及身体轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_23.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_23.png"
+    },
+    {
+        "latin_name": "Avis Caeli",
+        "chinese_name": "天鸟",
+        "visual_description": "由白色线条勾勒出的展翅鸟类轮廓，线条交织形成身体、双翼与尾部，蓝色星点模拟羽毛分布",
+        "coherence_score": 8,
+        "filename": "constellation_19.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_19.png"
+    },
+    {
+        "latin_name": "Cervus",
+        "chinese_name": "鹿",
+        "visual_description": "线条勾勒出类似鹿的轮廓，头部、身体、四肢与鹿角的形态隐约可辨",
+        "coherence_score": 7,
+        "filename": "constellation_26.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_26.png"
+    },
+    {
+        "latin_name": "Draco Cornutus",
+        "chinese_name": "虬龙",
+        "visual_description": "线条构成的蜿蜒轮廓，形似有角的龙，头部、躯干与尾部结构清晰，分叉的角状线条增添神话感",
+        "coherence_score": 7,
+        "filename": "constellation_22.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_22.png"
+    },
+    {
+        "latin_name": "Aquila major",
+        "chinese_name": "大鹏鸟",
+        "visual_description": "展翅的大型猛禽，翅膀舒展，身体与尾部线条构成典型的鸟类轮廓，头部与躯干的连接处形态清晰",
+        "coherence_score": 7,
+        "filename": "constellation_20.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_20.png"
+    },
+    {
+        "latin_name": "Vulpes Cursus",
+        "chinese_name": "奔狐",
+        "visual_description": "图案由线条连接成一只奔跑的狐狸形态，头部、身体、四肢与尾部线条清晰，呈现动态的奔跑姿态",
+        "coherence_score": 6,
+        "filename": "constellation_24.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_24.png"
+    },
+    {
+        "latin_name": "Cancer",
+        "chinese_name": "巨蟹",
+        "visual_description": "线条构成的轮廓形似一只螃蟹，有明显的钳状突出和身体轮廓，星点分布模拟蟹壳与肢体细节",
+        "coherence_score": 7,
+        "filename": "constellation_27.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_27.png"
+    },
+    {
+        "latin_name": "Serpens",
+        "chinese_name": "灵蛇",
+        "visual_description": "线条连结成蜿蜒的蛇形轮廓，头部与尾部呈弯曲姿态，身体呈现典型的S型曲线，具有蛇类爬行时的动态感",
+        "coherence_score": 7,
+        "filename": "constellation_28.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_28.png"
+    },
+    {
+        "latin_name": "Cervus Luminis",
+        "chinese_name": "灵鹿",
+        "visual_description": "像一只正在奔跑的灵鹿，头部、身体及四肢的轮廓由线条勾勒，角的形态隐约可见",
+        "coherence_score": 7,
+        "filename": "constellation_21.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_21.png"
+    },
+    {
+        "latin_name": "Arachne Major",
+        "chinese_name": "蛛王",
+        "visual_description": "由白色线条连接星点形成的类似蜘蛛的形态，多条细长肢体向外延伸，中央区域呈身体结构",
+        "coherence_score": 7,
+        "filename": "constellation_32.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_32.png"
+    },
+    {
+        "latin_name": "Phoenix Aviaria",
+        "chinese_name": "凤凰",
+        "visual_description": "看起来像一只展翅的凤凰，线条勾勒出头部、身体与展开的翅膀轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_30.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_30.png"
+    },
+    {
+        "latin_name": "Panthera Currus",
+        "chinese_name": "奔豹",
+        "visual_description": "由线条连接的点构成的动态图案，呈现奔跑的豹子形态，头部、躯干、四肢及尾部结构清晰，具有强烈的运动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_33.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_33.png"
+    },
+    {
+        "latin_name": "Piscis Nigra",
+        "chinese_name": "玄鱼",
+        "visual_description": "线条构成类似鱼的轮廓，头部尖锐、身体呈流线型、尾部有分叉，星点分布如鱼身斑点",
+        "coherence_score": 7,
+        "filename": "constellation_29.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_29.png"
+    },
+    {
+        "latin_name": "Cervus saltans",
+        "chinese_name": "迅鹿",
+        "visual_description": "线条构成的轮廓似奔跑的鹿，头部有长角，身体呈弯曲动态，四肢线条分明，整体呈现疾速奔跃的姿态",
+        "coherence_score": 7,
+        "filename": "constellation_25.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_25.png"
+    },
+    {
+        "latin_name": "Draco Pictus",
+        "chinese_name": "绘龙",
+        "visual_description": "线条呈蜿蜒曲折状，似龙身盘旋，星点如龙鳞点缀，整体构成神龙游动之姿",
+        "coherence_score": 6,
+        "filename": "constellation_35.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_35.png"
+    },
+    {
+        "latin_name": "Avis Caelica",
+        "chinese_name": "玄翼神鸟",
+        "visual_description": "白色连线构成展翅飞鸟轮廓，右侧长线似尾羽，左侧长线如翅膀，中间连线呈身体与颈部，整体具神鸟飞翔姿态",
+        "coherence_score": 7,
+        "filename": "constellation_36.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_36.png"
+    },
+    {
+        "latin_name": "Qilinus",
+        "chinese_name": "麒麟",
+        "visual_description": "线条连贯勾勒出类似麒麟的轮廓：头部昂起、身体蜿蜒曲折、尾部扬起，整体呈现行走姿态，线条的转折与延伸模拟了神兽的灵动形态",
+        "coherence_score": 8,
+        "filename": "constellation_37.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_37.png"
+    },
+    {
+        "latin_name": "Felis Catus",
+        "chinese_name": "狸",
+        "visual_description": "线条构成一只蹲伏的猫科动物，头部朝左，身体弯曲，四肢与尾巴轮廓清晰，呈现捕猎姿态",
+        "coherence_score": 7,
+        "filename": "constellation_31.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_31.png"
+    },
+    {
+        "latin_name": "Avis alatus",
+        "chinese_name": "翼翔鸟",
+        "visual_description": "线条构成的轮廓似展翅飞翔的神鸟，头部纤细、双翼宽大且呈弧形舒展，躯体弯曲流畅，尾部线条分叉如羽，整体姿态轻盈灵动",
+        "coherence_score": 6,
+        "filename": "constellation_34.png",
+        "file_path": "/Users/nan/Library/CloudStorage/OneDrive-个人/workSpace/其它/2025_liubo_建模/code/code-h/constellation_images/constellation_34.png"
+    }
+]

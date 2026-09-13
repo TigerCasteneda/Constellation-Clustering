@@ -1,0 +1,562 @@
+[
+    {
+        "latin_name": "Cervus Alatus",
+        "chinese_name": "天马",
+        "visual_description": "形似头生双角、躯干弯曲的神兽，前肢伸展，尾部上扬，整体轮廓似奔跑中展翅的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_08.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_08.png"
+    },
+    {
+        "latin_name": "Draco Ramificatus",
+        "chinese_name": "应龙",
+        "visual_description": "蜿蜒的龙形生物，头部有分叉的角，身体曲折延伸，尾部呈分叉状",
+        "coherence_score": 6,
+        "filename": "constellation_05.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_05.png"
+    },
+    {
+        "latin_name": "Cornu Avis",
+        "chinese_name": "毕方",
+        "visual_description": "单足神鸟，头部生角，双翼展开呈弯曲姿态，尾部上翘",
+        "coherence_score": 7,
+        "filename": "constellation_03.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_03.png"
+    },
+    {
+        "latin_name": "Avis Fenix",
+        "chinese_name": "凤凰",
+        "visual_description": "线条构成一只昂首展翅的神鸟，颈部呈S形弯曲，双翼宽大舒展，尾羽呈扇形向外延伸，整体姿态似在云端翱翔",
+        "coherence_score": 7,
+        "filename": "constellation_06.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_06.png"
+    },
+    {
+        "latin_name": "Draco Sinoformis",
+        "chinese_name": "应龙",
+        "visual_description": "上半部分线条如昂首长颈，转折处似龙角与脊背，下半部分折线分叉形似龙尾与利爪，整体呈现腾跃姿态的神龙轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_09.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_09.png"
+    },
+    {
+        "latin_name": "Bactus Cornutus",
+        "chinese_name": "驳",
+        "visual_description": "形似有角神兽，头部尖角突出，躯干弯曲如马，尾部下垂，整体姿态矫健",
+        "coherence_score": 6,
+        "filename": "constellation_07.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_07.png"
+    },
+    {
+        "latin_name": "Cervus Mirabilis",
+        "chinese_name": "夫诸",
+        "visual_description": "形似四角白鹿，头部与尾部均有分叉结构，躯干曲折如游动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_00.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_00.png"
+    },
+    {
+        "latin_name": "Cervus Cornutus",
+        "chinese_name": "角端",
+        "visual_description": "一只昂首挺立、分叉鹿角的神兽，身体修长，尾部微扬，仿佛正踏云而行的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_04.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_04.png"
+    },
+    {
+        "latin_name": "Fenghuangus Ascendens",
+        "chinese_name": "毕方",
+        "visual_description": "一只单足神鸟昂首展翅，颈部呈S形弯曲，尾羽如折线般斜向天际，头顶羽冠直指苍穹",
+        "coherence_score": 7,
+        "filename": "constellation_01.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_01.png"
+    },
+    {
+        "latin_name": "Cervus Mythicus",
+        "chinese_name": "鹿蜀",
+        "visual_description": "线条呈现左右分叉的角状结构，中部有转折形成的躯干轮廓，整体形似头生双角、体态矫健的神兽，符合《山海经》中鹿蜀'状如马而白首，其文如虎而赤尾'的抽象化动态姿态",
+        "coherence_score": 7,
+        "filename": "constellation_02.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_02.png"
+    },
+    {
+        "latin_name": "Draco Ramificatus",
+        "chinese_name": "应龙",
+        "visual_description": "一条蜿蜒的龙形生物，躯干曲折分叉如树枝，尾部与肢体呈现动态伸展姿态，星点分布似鳞片与羽翼的流动感",
+        "coherence_score": 6,
+        "filename": "constellation_10.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_10.png"
+    },
+    {
+        "latin_name": "Avis Serpens",
+        "chinese_name": "毕方",
+        "visual_description": "整体呈展翅飞鸟形态，左侧斜线似长尾，中央分叉为双翼，右侧折线勾勒出带喙的头部轮廓，具有神话中单足神鸟的抽象特征",
+        "coherence_score": 8,
+        "filename": "constellation_14.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_14.png"
+    },
+    {
+        "latin_name": "Cervus Quattuorcornis",
+        "chinese_name": "夫诸",
+        "visual_description": "形似四角神鹿，主干分叉如鹿角向两侧延展，尾部修长弯曲，肢体线条刚劲中带有飘逸感",
+        "coherence_score": 7,
+        "filename": "constellation_15.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_15.png"
+    },
+    {
+        "latin_name": "Cervus Longicervus",
+        "chinese_name": "鹿蜀",
+        "visual_description": "形似长颈鹿与鹿的结合体，主干线条构成修长脖颈与躯干，右侧分叉似鹿角，左侧斜线如奔跃的后肢，尾部线条延伸如飘带",
+        "coherence_score": 7,
+        "filename": "constellation_11.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_11.png"
+    },
+    {
+        "latin_name": "Qilinum majus",
+        "chinese_name": "麒麟",
+        "visual_description": "蹲伏姿态的神兽，具有弯曲的脊背、突出的角状结构和分段式躯干，尾部微微上扬，整体轮廓似传说中祥瑞的麒麟",
+        "coherence_score": 7,
+        "filename": "constellation_12.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_12.png"
+    },
+    {
+        "latin_name": "Cervus Mirabilis",
+        "chinese_name": "驳",
+        "visual_description": "一只具有分叉鹿角的神兽，身体呈弯曲姿态，尾部延伸出锐利分叉，整体似腾跃的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_16.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_16.png"
+    },
+    {
+        "latin_name": "Bifangus Unipeda",
+        "chinese_name": "毕方",
+        "visual_description": "轮廓呈现单足鸟类的侧面剪影，头部宽圆，颈部向后弯曲形成弧线，尾部尖锐下垂，整体姿态似展翅欲飞的神鸟",
+        "coherence_score": 6,
+        "filename": "constellation_18.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_18.png"
+    },
+    {
+        "latin_name": "Cervus Spica",
+        "chinese_name": "鹿蜀",
+        "visual_description": "一只奔跑的鹿形生物，头部有分叉的鹿角，身体呈流线型，后肢弯曲似跃动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_17.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_17.png"
+    },
+    {
+        "latin_name": "Cervus Monstrum",
+        "chinese_name": "夫诸",
+        "visual_description": "形似四角鹿首，躯干蜿蜒如水流，尾部多分叉如枝桠，整体似在腾跃的神兽",
+        "coherence_score": 7,
+        "filename": "constellation_13.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_13.png"
+    },
+    {
+        "latin_name": "Cervicornis Mirabilis",
+        "chinese_name": "角端",
+        "visual_description": "一个头部带有分叉犄角、躯干呈不规则多边形的神兽轮廓，前肢短小后肢粗壮，尾部尖锐上扬，整体姿态似蓄势待发的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_22.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_22.png"
+    },
+    {
+        "latin_name": "Cervicornis Mythicus",
+        "chinese_name": "角端",
+        "visual_description": "折线勾勒出带有弯曲长角的神兽头部轮廓，角部线条锐利，颈部曲线流畅，整体形态呼应传说中能辨忠奸的祥瑞神兽特征",
+        "coherence_score": 7,
+        "filename": "constellation_24.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_24.png"
+    },
+    {
+        "latin_name": "Draco Cornutus",
+        "chinese_name": "蛊雕",
+        "visual_description": "形似单足神鸟，头部有锐角突起，躯干呈直角转折，尾部向左下方分叉延伸，整体轮廓兼具猛禽与神兽特征",
+        "coherence_score": 7,
+        "filename": "constellation_19.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_19.png"
+    },
+    {
+        "latin_name": "Avis Cornuta",
+        "chinese_name": "蛊雕",
+        "visual_description": "形似展翅神鸟，主干如躯干，分叉线条似带角羽翼与蜿蜒尾羽，整体结构兼具飞禽的灵动与神兽的诡谲",
+        "coherence_score": 7,
+        "filename": "constellation_20.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_20.png"
+    },
+    {
+        "latin_name": "Cervus Celestis",
+        "chinese_name": "鹿蜀",
+        "visual_description": "线条勾勒出一只具有分叉鹿角、弯曲躯干和多肢的站立神兽形象，头部有三叉角，躯干呈S形扭转，下肢粗壮分叉如蹄，整体结构类似《山海经》中描述的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_28.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_28.png"
+    },
+    {
+        "latin_name": "Cervus Cornutus",
+        "chinese_name": "夫诸",
+        "visual_description": "形似四角灵鹿的抽象轮廓，主干线条勾勒出昂首姿态，分叉结构模拟多支鹿角，末端延伸的线条似鹿身与尾部，整体呈现神话中祥瑞神兽的动态感",
+        "coherence_score": 7,
+        "filename": "constellation_21.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_21.png"
+    },
+    {
+        "latin_name": "Draco Multifurcus",
+        "chinese_name": "九婴",
+        "visual_description": "一条蜿蜒曲折的龙形生物，主干分叉出多支肢体，头部呈尖锐三角状，尾部延伸出细长分支，整体似多首神兽在星空中盘旋",
+        "coherence_score": 7,
+        "filename": "constellation_23.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_23.png"
+    },
+    {
+        "latin_name": "Avis Ignis",
+        "chinese_name": "毕方",
+        "visual_description": "一只单足神鸟的抽象轮廓，头部前伸，双翼展开如火焰状",
+        "coherence_score": 7,
+        "filename": "constellation_25.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_25.png"
+    },
+    {
+        "latin_name": "Qilinus Stellatus",
+        "chinese_name": "鹿蜀",
+        "visual_description": "形似鹿身龙首，角分双叉，尾部弯曲如弓，四肢呈奔跃姿态",
+        "coherence_score": 7,
+        "filename": "constellation_31.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_31.png"
+    },
+    {
+        "latin_name": "Cervicornis Tripartita",
+        "chinese_name": "鹿蜀",
+        "visual_description": "分叉的角状结构，上部两支平行延伸，下部一支斜向展开，形似神话神兽头部轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_26.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_26.png"
+    },
+    {
+        "latin_name": "Phoenix Volans",
+        "chinese_name": "毕方",
+        "visual_description": "线条构成的多边形轮廓形似单足展翅的神鸟，头部尖喙前伸，躯干呈不规则菱形，尾部有分叉延伸，整体姿态似振翅欲飞的异兽",
+        "coherence_score": 7,
+        "filename": "constellation_27.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_27.png"
+    },
+    {
+        "latin_name": "Avis Bifurca",
+        "chinese_name": "毕方",
+        "visual_description": "一只单足神鸟，头部尖锐如喙，身体呈流线型弯曲，尾部线条分叉如火焰羽翼，整体姿态似振翅欲飞的异兽",
+        "coherence_score": 7,
+        "filename": "constellation_29.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_29.png"
+    },
+    {
+        "latin_name": "Cervus Monoceros",
+        "chinese_name": "角端",
+        "visual_description": "形似单角鹿，前肢微屈，头部昂扬，尾部短促，整体呈现蓄势待发的姿态，线条转折处似鹿角与脊背的轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_30.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_30.png"
+    },
+    {
+        "latin_name": "Cervus Cornutus",
+        "chinese_name": "角端",
+        "visual_description": "一只昂首挺胸的神鹿，鹿角分叉如云纹，前肢微屈似踏祥云，尾部上扬如卷草，整体姿态威严灵动",
+        "coherence_score": 7,
+        "filename": "constellation_33.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_33.png"
+    },
+    {
+        "latin_name": "Bifangis Unipeda",
+        "chinese_name": "毕方",
+        "visual_description": "折线勾勒出单足鸟类轮廓，左侧V形为头部与躯干，垂直线段象征单足，右侧横线延伸如尾羽",
+        "coherence_score": 7,
+        "filename": "constellation_35.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_35.png"
+    },
+    {
+        "latin_name": "Qilinum Stellare",
+        "chinese_name": "鹿蜀",
+        "visual_description": "形似多足神兽，头部生分叉犄角，躯干蜿蜒如流云，四肢伸展带羽翼状分叉，尾部卷曲似星轨",
+        "coherence_score": 7,
+        "filename": "constellation_32.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_32.png"
+    },
+    {
+        "latin_name": "Draco Flexuosus",
+        "chinese_name": "应龙",
+        "visual_description": "蜿蜒的龙形轮廓，躯干呈S形弯曲，头部簇状星点似冠羽，分叉线条模拟龙爪与尾鳍，整体姿态兼具矫健与神秘感",
+        "coherence_score": 7,
+        "filename": "constellation_36.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_36.png"
+    },
+    {
+        "latin_name": "Bifangus Unipeda",
+        "chinese_name": "毕方",
+        "visual_description": "侧身站立的单足神鸟，头部微垂，翅膀收拢，尾羽修长，线条勾勒出挺拔的躯干与独特的单足姿态",
+        "coherence_score": 7,
+        "filename": "constellation_38.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_38.png"
+    },
+    {
+        "latin_name": "Avis Longicauda",
+        "chinese_name": "鵸鵌",
+        "visual_description": "一只头部前伸、尾羽分叉如扇形的展翅神鸟，线条勾勒出锐利的喙部与舒展的翼展",
+        "coherence_score": 7,
+        "filename": "constellation_37.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_37.png"
+    },
+    {
+        "latin_name": "Draco Serpentinus",
+        "chinese_name": "夔龙",
+        "visual_description": "蜿蜒曲折的龙形轮廓，躯干呈多段波浪状转折，头部微昂似昂首吐息，尾部上扬分叉如卷云，四肢隐现于星点间如腾跃姿态",
+        "coherence_score": 7,
+        "filename": "constellation_34.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_34.png"
+    },
+    {
+        "latin_name": "Phoenicopterus Mythicus",
+        "chinese_name": "毕方",
+        "visual_description": "线条构成的对称结构形似单足神鸟，中央主体如躯干，两侧斜向延伸的折线似羽翼，下方锯齿状线条酷似火焰尾羽，整体呈现展翅欲飞的动态姿态",
+        "coherence_score": 8,
+        "filename": "constellation_39.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_39.png"
+    },
+    {
+        "latin_name": "Bifangus Volans",
+        "chinese_name": "毕方",
+        "visual_description": "一只单足神鸟的侧影，锐角线条勾勒出展翅俯冲的姿态，头部微昂，尾部尖锐上扬，似正衔火而行",
+        "coherence_score": 7,
+        "filename": "constellation_40.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_40.png"
+    },
+    {
+        "latin_name": "Draco Ramifer",
+        "chinese_name": "应龙",
+        "visual_description": "一条蜿蜒盘旋的龙形生物，主干线条如龙脊般起伏，多处分叉延伸出类似龙爪与羽翼的结构，头部高昂呈俯冲姿态，尾部尖锐收束",
+        "coherence_score": 8,
+        "filename": "constellation_41.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_41.png"
+    },
+    {
+        "latin_name": "Bifangus Ignipennis",
+        "chinese_name": "毕方",
+        "visual_description": "形似单足神鸟，头部朝右昂起，双翼呈折线展开，尾部向下弯曲，线条转折模拟羽翼与喙部轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_44.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_44.png"
+    },
+    {
+        "latin_name": "Cervicornis Stellata",
+        "chinese_name": "乘黄",
+        "visual_description": "线条勾勒出类狐形体，背部有分叉的角状结构，四肢呈动态伸展姿态，整体似奔跑中的神兽",
+        "coherence_score": 7,
+        "filename": "constellation_47.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_47.png"
+    },
+    {
+        "latin_name": "Cervus Mythicus",
+        "chinese_name": "鹿蜀",
+        "visual_description": "线条勾勒出长有分叉鹿角、脊背起伏的神兽轮廓，尾部下垂，周围星点似其皮毛斑纹",
+        "coherence_score": 7,
+        "filename": "constellation_51.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_51.png"
+    },
+    {
+        "latin_name": "Draco Multiceps",
+        "chinese_name": "相柳",
+        "visual_description": "多头蛇形神兽，躯干蜿蜒分叉，主干延伸出三支触须状分支，形似九首蛇身之相柳",
+        "coherence_score": 7,
+        "filename": "constellation_46.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_46.png"
+    },
+    {
+        "latin_name": "Draco Candelae",
+        "chinese_name": "烛龙",
+        "visual_description": "蜿蜒的龙形轮廓，躯干呈S形弯曲并带有分叉尾部，头部区域有突出的角状结构，整体似人面蛇身的神兽形态",
+        "coherence_score": 7,
+        "filename": "constellation_45.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_45.png"
+    },
+    {
+        "latin_name": "Draco Flexus",
+        "chinese_name": "应龙",
+        "visual_description": "一条蜿蜒的龙形轮廓，头部尖锐上扬，躯干曲折延伸，尾部呈分叉状如波浪起伏",
+        "coherence_score": 7,
+        "filename": "constellation_42.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_42.png"
+    },
+    {
+        "latin_name": "Bifangus Aeternus",
+        "chinese_name": "毕方",
+        "visual_description": "线条勾勒出单足神鸟的侧影，头部尖喙上扬，躯干呈流线型向右延伸，尾羽如折线般舒展，整体似振翅欲飞的火鸟",
+        "coherence_score": 7,
+        "filename": "constellation_48.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_48.png"
+    },
+    {
+        "latin_name": "Avis Alatus",
+        "chinese_name": "当扈",
+        "visual_description": "线条构成展翅神鸟形态，头部呈多边形冠羽，双翼斜向伸展，尾部线条锐利如刃，整体似振翅欲飞的异兽",
+        "coherence_score": 7,
+        "filename": "constellation_43.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_43.png"
+    },
+    {
+        "latin_name": "Cervus Celestis",
+        "chinese_name": "角端",
+        "visual_description": "折线勾勒出类似鹿角与长尾的轮廓，头部微昂，躯干呈Z字形起伏，尾部分叉如双角，整体似山海经中通晓万物的神兽角端",
+        "coherence_score": 7,
+        "filename": "constellation_50.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_50.png"
+    },
+    {
+        "latin_name": "Phoenicopterus Divinus",
+        "chinese_name": "九凤",
+        "visual_description": "一只展翅的神鸟，头部微昂，双翼舒展，尾羽呈分叉状延伸",
+        "coherence_score": 7,
+        "filename": "constellation_49.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_49.png"
+    },
+    {
+        "latin_name": "Bifangus Unipedis",
+        "chinese_name": "毕方",
+        "visual_description": "一只展翅的独脚神鸟，头部尖喙突出，身体线条分叉如羽翼，尾部呈不规则垂坠状",
+        "coherence_score": 7,
+        "filename": "constellation_55.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_55.png"
+    },
+    {
+        "latin_name": "Avis Sideralis",
+        "chinese_name": "毕方",
+        "visual_description": "一个具有尖喙状头部、弯曲脊背和分叉尾部的抽象飞鸟轮廓，线条呈现出单足站立的动态姿态",
+        "coherence_score": 7,
+        "filename": "constellation_53.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_53.png"
+    },
+    {
+        "latin_name": "Cervus Multiplicis",
+        "chinese_name": "角端",
+        "visual_description": "形似多角神鹿，主干为躯体，分支如鹿角与四肢交错延伸",
+        "coherence_score": 7,
+        "filename": "constellation_57.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_57.png"
+    },
+    {
+        "latin_name": "Cervicornis Monoceros",
+        "chinese_name": "角端",
+        "visual_description": "头部尖锐、单角前伸的神兽轮廓，躯干呈不规则多边形，尾部折线如分叉鹿角，整体似蓄势奔跃的灵兽",
+        "coherence_score": 7,
+        "filename": "constellation_54.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_54.png"
+    },
+    {
+        "latin_name": "Bifangus Unipedis",
+        "chinese_name": "毕方",
+        "visual_description": "折线构成单足神鸟形态，颈部曲折延伸，尾部呈三叉羽冠状，头部尖喙前伸似振翅欲飞之态",
+        "coherence_score": 7,
+        "filename": "constellation_52.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_52.png"
+    },
+    {
+        "latin_name": "Draconis Meandrus",
+        "chinese_name": "应龙",
+        "visual_description": "蜿蜒的龙形轮廓，头部高昂，身体呈多段折线起伏，尾部向上扬起，仿佛腾云驾雾的神龙",
+        "coherence_score": 7,
+        "filename": "constellation_58.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_58.png"
+    },
+    {
+        "latin_name": "Cervus Trifurcus",
+        "chinese_name": "角端",
+        "visual_description": "三叉分枝结构，主干向上延伸并分出左右两支，形似神话中鹿角的抽象化形态，具有对称的动态张力",
+        "coherence_score": 7,
+        "filename": "constellation_56.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_56.png"
+    },
+    {
+        "latin_name": "Candela Draco",
+        "chinese_name": "烛龙",
+        "visual_description": "蜿蜒曲折的龙形轮廓，头部微昂，躯干呈S形盘绕，尾部带有分叉结构，整体神似山海经中人面蛇身、掌控昼夜的神兽",
+        "coherence_score": 7,
+        "filename": "constellation_59.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_59.png"
+    },
+    {
+        "latin_name": "Bifangus Monopedis",
+        "chinese_name": "毕方",
+        "visual_description": "单足神鸟形态，颈部弯曲如弓，双翼展开呈斜线，尾部上扬形成锐角，整体似振翅欲飞之姿",
+        "coherence_score": 7,
+        "filename": "constellation_64.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_64.png"
+    },
+    {
+        "latin_name": "Qifangus",
+        "chinese_name": "毕方",
+        "visual_description": "一只侧身昂首的神鸟，长颈与梯形躯干相连，尾部线条修长",
+        "coherence_score": 7,
+        "filename": "constellation_65.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_65.png"
+    },
+    {
+        "latin_name": "Avis Bifangus",
+        "chinese_name": "毕方",
+        "visual_description": "折线构成的锐角头部与舒展尾部，形似单足神鸟振翅欲飞的姿态，线条转折处隐现羽翼轮廓",
+        "coherence_score": 7,
+        "filename": "constellation_66.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_66.png"
+    },
+    {
+        "latin_name": "Cervus Multiramis",
+        "chinese_name": "角端",
+        "visual_description": "一只拥有分叉鹿角的神兽，中央躯干向三侧延伸出多节肢体，顶部分支呈锯齿状如鹿角，整体结构似山海经中能通晓万物的祥瑞异兽",
+        "coherence_score": 7,
+        "filename": "constellation_61.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_61.png"
+    },
+    {
+        "latin_name": "Cervus Cornutus",
+        "chinese_name": "角端",
+        "visual_description": "一只昂首腾跃的鹿形神兽，头部生有分叉巨角，躯干呈流线型弯曲，四肢以锐角转折展现奔跃动态，尾部短小上扬",
+        "coherence_score": 7,
+        "filename": "constellation_63.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_63.png"
+    },
+    {
+        "latin_name": "Draco Alatus",
+        "chinese_name": "应龙",
+        "visual_description": "线条勾勒出一只展翅欲飞的神龙，躯干蜿蜒，双翼舒展，尾部修长，整体形态充满动感与力量。",
+        "coherence_score": 7,
+        "filename": "constellation_68.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_68.png"
+    },
+    {
+        "latin_name": "Cervus Longicornis",
+        "chinese_name": "白鹿",
+        "visual_description": "线条构成一只昂首的鹿形，主干为躯干，左侧长斜线似修长鹿角，右侧分支如扬起的鹿首与前蹄，尾部短斜线勾勒出灵动姿态",
+        "coherence_score": 7,
+        "filename": "constellation_60.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_60.png"
+    },
+    {
+        "latin_name": "Tricephalus stellatus",
+        "chinese_name": "三首神兽",
+        "visual_description": "三条从中心点发散的线条构成三叉犄角状，形似神话中三首神兽的头部轮廓",
+        "coherence_score": 6,
+        "filename": "constellation_62.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_62.png"
+    },
+    {
+        "latin_name": "Porcus Monstrum",
+        "chinese_name": "当康",
+        "visual_description": "一个蹲伏的野猪形态，头部前伸，脊背弯曲，后肢低伏，整体呈现蓄势待发的姿态",
+        "coherence_score": 6,
+        "filename": "constellation_67.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_67.png"
+    },
+    {
+        "latin_name": "Serpens Multiceps",
+        "chinese_name": "相柳",
+        "visual_description": "一条多头蛇形生物，身体分叉如龙爪，头部有角状突起，整体呈现蜿蜒盘绕的动态姿态",
+        "coherence_score": 7,
+        "filename": "constellation_69.png",
+        "file_path": "d:\\code\\code-h-full\\constellation_images\\constellation_69.png"
+    }
+]

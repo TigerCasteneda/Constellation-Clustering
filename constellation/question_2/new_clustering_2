@@ -1,0 +1,422 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.cluster import DBSCAN
+from scipy.spatial import ConvexHull
+from matplotlib.patches import Polygon
+import json
+
+# --- 1. Configuration Parameters ---
+FILE_CONFIGS = {
+    "stars": {"path": "asu.tsv", "column_spec": {'usecols': [0, 1, 2, 3, 18], 'names': ["_RAJ2000", "_DEJ2000", "HR", "Name", "Vmag"]}, "sep": ";"},
+    "famous_stars": {"path": "asu_names.tsv", "column_spec": {'usecols': [0, 1], 'names': ["HR", "Famous_Name"]}, "sep": ";"},
+}
+
+# DBSCAN parameters
+EPS = 5.0  # Clustering radius in degrees
+MIN_PTS = 3  # Minimum number of points for a cluster
+
+# Star selection parameters
+CORE_STAR_VMAG_LIMIT = 4.5  # Brightness limit for core stars
+ALL_STAR_VMAG_LIMIT = 6.5   # Brightness limit for all considered stars (including faint ones)
+
+# Plotting parameters
+FIG_SIZE = (16, 10)
+MAX_DPI = 300
+STAR_SIZE = 5
+CORE_STAR_SIZE = 15
+CONVEX_HULL_ALPHA = 0.3
+
+# Output files
+RESULTS_JSON_FILE = 'constellation_division_results.json'
+# 仿照 asu_constellations.tsv 格式，保存最终凸包
+CONSTELLATIONS_TSV_FILE = 'new_constellations_final_hulls.tsv'
+CONSTELLATION_NAME_PREFIX = "NewCst_"  # Prefix for new constellation names
+
+# --- 2. Helper Functions ---
+
+def calculate_angular_distance(ra1, dec1, ra2, dec2):
+    """Calculate the angular distance between two celestial objects (in degrees)."""
+    ra1_rad, dec1_rad = np.radians(ra1), np.radians(dec1)
+    ra2_rad, dec2_rad = np.radians(ra2), np.radians(dec2)
+    delta_ra = np.abs(ra1_rad - ra2_rad)
+    
+    cos_dist = (np.sin(dec1_rad) * np.sin(dec2_rad) + 
+                np.cos(dec1_rad) * np.cos(dec2_rad) * np.cos(delta_ra))
+    cos_dist = np.clip(cos_dist, -1.0, 1.0)
+    
+    return np.degrees(np.arccos(cos_dist))
+
+def is_point_in_convex_hull(point, hull):
+    """Check if a point lies inside a convex hull."""
+    point = np.array(point)
+    for eq in hull.equations:
+        if np.dot(eq[:-1], point) + eq[-1] > 1e-10:
+            return False
+    return True
+
+def find_closest_convex_hull(point, hulls):
+    """Find the convex hull closest to a given point."""
+    min_distance = float('inf')
+    closest_hull_idx = -1
+    for i, hull in enumerate(hulls):
+        distances = np.sqrt(np.sum((hull.points - point)**2, axis=1))
+        min_dist_to_hull = np.min(distances)
+        if min_dist_to_hull < min_distance:
+            min_distance = min_dist_to_hull
+            closest_hull_idx = i
+    return closest_hull_idx
+
+def calculate_spherical_center(ra_series, dec_series):
+    """Calculate the geometric center of a set of spherical coordinates."""
+    ra_rad = np.radians(ra_series)
+    dec_rad = np.radians(dec_series)
+    x = np.cos(dec_rad) * np.cos(ra_rad)
+    y = np.cos(dec_rad) * np.sin(ra_rad)
+    z = np.sin(dec_rad)
+    mean_x, mean_y, mean_z = np.mean(x), np.mean(y), np.mean(z)
+    center_dec_rad = np.arcsin(mean_z)
+    center_ra_rad = np.arctan2(mean_y, mean_x)
+    return np.degrees(center_ra_rad) % 360.0, np.degrees(center_dec_rad)
+
+# --- 修改 save_constellations_as_tsv 函数 ---
+# 你需要修改这个函数，让它使用我们新存储的排序后的顶点索引
+def save_constellations_as_tsv(constellation_data, filename):
+    """
+    Save the FINAL convex hull vertices (after assigning faint stars) in TSV format.
+    Format: ra_hours\tdec_deg\tcst_name
+    """
+    print("\n--- Preparing to save FINAL CONSTELLATION HULLS ---")
+    tsv_data = []
+    
+    for constellation in constellation_data:
+        cluster_id = constellation["cluster_id"]
+        final_hull = constellation["final_hull"]
+        constellation_name = f"{CONSTELLATION_NAME_PREFIX}{cluster_id:02d}"
+        
+        # --- 使用排序后的顶点索引 ---
+        # 检查是否存在我们自己计算的有序顶点索引
+        if "ordered_vertices_indices" in constellation:
+            ordered_vertices = constellation["ordered_vertices_indices"]
+        else:
+            # 如果没有，就使用原始的顶点索引作为备选
+            ordered_vertices = final_hull.vertices
+
+        # 获取最终凸包的顶点坐标（已经是有序的）
+        vertices = final_hull.points[ordered_vertices]
+        
+        # 转换坐标并添加到数据列表
+        for ra_deg, dec_deg in vertices:
+            ra_hours = ra_deg / 15.0
+            tsv_data.append({
+                'ra_hours': ra_hours,
+                'dec_deg': dec_deg,
+                'cst': constellation_name
+            })
+    
+    df = pd.DataFrame(tsv_data)
+    df = df.sort_values(['cst', 'ra_hours'])
+    df[['ra_hours', 'dec_deg', 'cst']].to_csv(
+        filename, 
+        sep='\t', 
+        index=False, 
+        header=False, 
+        float_format='%.6f'
+    )
+    print(f"Successfully saved FINAL constellation hulls to: {filename}")
+
+# --- 3. Main Logic ---
+
+def main():
+    print("--- Step 1: Data Loading and Preprocessing ---")
+    try:
+        stars_df = pd.read_csv(FILE_CONFIGS["stars"]["path"], sep=FILE_CONFIGS["stars"]["sep"], header=None,** FILE_CONFIGS["stars"]["column_spec"])
+        famous_stars_df = pd.read_csv(FILE_CONFIGS["famous_stars"]["path"], sep=FILE_CONFIGS["famous_stars"]["sep"], header=None, **FILE_CONFIGS["famous_stars"]["column_spec"])
+        
+        for col in ["_RAJ2000", "_DEJ2000", "HR", "Vmag"]:
+            stars_df[col] = pd.to_numeric(stars_df[col], errors="coerce")
+        stars_df = stars_df.dropna(subset=["_RAJ2000", "_DEJ2000", "HR", "Vmag"])
+        
+        famous_stars_df["HR"] = pd.to_numeric(famous_stars_df["HR"], errors="coerce")
+        famous_stars_df = famous_stars_df.dropna(subset=["HR"])
+        stars_df = pd.merge(stars_df, famous_stars_df, on="HR", how="left")
+        stars_df["Display_Name"] = stars_df["Famous_Name"].fillna(stars_df["Name"]).fillna(f"HR {stars_df['HR'].astype(int)}")
+        
+        stars_df["ra_deg"] = stars_df["_RAJ2000"] * 15.0
+        stars_df["dec_deg"] = stars_df["_DEJ2000"]
+        
+        print(f"Total stars after preprocessing: {len(stars_df)}")
+        
+    except FileNotFoundError as e:
+        print(f"Error: File not found -> {e.filename}")
+        exit()
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        exit()
+    print("\n--- Step 2: Select Core Stars and Perform DBSCAN Clustering ---")
+    # Select core stars (Vmag < 3)
+    core_stars_df = stars_df[(stars_df["Vmag"] < CORE_STAR_VMAG_LIMIT)].copy()
+    print(f"Number of core stars (Vmag < {CORE_STAR_VMAG_LIMIT}): {len(core_stars_df)}")
+    
+    if len(core_stars_df) < MIN_PTS:
+        print(f"Error: Insufficient core stars ({len(core_stars_df)} < {MIN_PTS}), cannot perform DBSCAN clustering.")
+        exit()
+    
+    # Prepare DBSCAN input
+    core_coords = core_stars_df[["ra_deg", "dec_deg"]].values
+    
+    print(f"Performing DBSCAN clustering (EPS={EPS} degrees, MIN_PTS={MIN_PTS})")
+    
+    # Custom DBSCAN implementation with angular distance
+    def dbscan_custom(points, eps, min_samples):
+        n_points = len(points)
+        labels = np.full(n_points, -1)
+        cluster_id = 0
+        
+        for i in range(n_points):
+            if labels[i] != -1:
+                continue
+                
+            # Find all neighbors
+            neighbors = []
+            for j in range(n_points):
+                dist = calculate_angular_distance(points[i][0], points[i][1], points[j][0], points[j][1])
+                if dist <= eps:
+                    neighbors.append(j)
+            
+            if len(neighbors) < min_samples:
+                labels[i] = -1  # Noise point
+            else:
+                # Start a new cluster
+                labels[i] = cluster_id
+                queue = neighbors.copy()
+                queue.remove(i)
+                
+                while queue:
+                    j = queue.pop(0)
+                    if labels[j] == -1:
+                        labels[j] = cluster_id
+                        
+                        # Find neighbors of j
+                        j_neighbors = []
+                        for k in range(n_points):
+                            dist = calculate_angular_distance(points[j][0], points[j][1], points[k][0], points[k][1])
+                            if dist <= eps:
+                                j_neighbors.append(k)
+                        
+                        if len(j_neighbors) >= min_samples:
+                            queue.extend(j_neighbors)
+                
+                cluster_id += 1
+        
+        return labels
+    
+    # Run DBSCAN
+    labels = dbscan_custom(core_coords, EPS, MIN_PTS)
+    core_stars_df["cluster_label"] = labels
+    
+    # Statistics of clustering results
+    n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+    print(f"Discovered {n_clusters} initial constellations")
+    
+    # Filter out noise points
+    clustered_core_stars = core_stars_df[core_stars_df["cluster_label"] != -1]
+    print(f"Number of core stars after clustering: {len(clustered_core_stars)}")
+    
+    if n_clusters == 0:
+        print("Error: No constellations found. Please adjust DBSCAN parameters.")
+        exit()
+
+    print("\n--- Step 3: Calculate Convex Hull for Each Constellation ---")
+    # Calculate convex hull for each cluster
+    constellation_data = []
+    hulls = []
+    
+    for cluster_id in range(n_clusters):
+        cluster_df = clustered_core_stars[clustered_core_stars["cluster_label"] == cluster_id].copy()
+        cluster_coords = cluster_df[["ra_deg", "dec_deg"]].values
+        
+        # Calculate convex hull (requires at least 3 points)
+        if len(cluster_coords) >= 3:
+            try:
+                hull = ConvexHull(cluster_coords)
+                hulls.append(hull)
+                
+                constellation_data.append({
+                    "cluster_id": cluster_id,
+                    "core_stars": cluster_df,
+                    "all_stars": cluster_df.copy(),
+                    "hull": hull,
+                    "center_ra": None,
+                    "center_dec": None
+                })
+                
+                print(f"Constellation {cluster_id}: {len(cluster_df)} core stars")
+                
+            except:
+                print(f"Warning: Cannot calculate convex hull for constellation {cluster_id}")
+        else:
+            print(f"Warning: Insufficient points for constellation {cluster_id} to calculate convex hull")
+    
+    if not constellation_data:
+        print("Error: No convex hulls calculated successfully")
+        exit()
+    
+    n_valid_clusters = len(constellation_data)
+    print(f"Number of constellations with successful convex hull calculation: {n_valid_clusters}")
+
+    print("\n--- Step 4: Assign Stars to Constellations ---")
+    # Select all stars to be considered
+    all_stars_df = stars_df[(stars_df["Vmag"] < ALL_STAR_VMAG_LIMIT)].copy()
+    all_stars_df["constellation_id"] = -1  # -1 indicates unassigned
+    
+    # First, assign stars inside convex hulls
+    print("Assigning stars inside convex hulls...")
+    
+    for idx, constellation in enumerate(constellation_data):
+        hull = constellation["hull"]
+        cluster_id = constellation["cluster_id"]
+        
+        # Mark core stars
+        core_hr = set(constellation["core_stars"]["HR"].values)
+        mask = all_stars_df["HR"].isin(core_hr)
+        all_stars_df.loc[mask, "constellation_id"] = cluster_id
+        
+        # Find other stars inside the convex hull
+        unassigned_stars = all_stars_df[all_stars_df["constellation_id"] == -1]
+        
+        if len(unassigned_stars) == 0:
+            continue
+            
+        # in_hull_mask = []
+        # for _, star in unassigned_stars.iterrows():
+        #     point = [star["ra_deg"], star["dec_deg"]]
+        #     in_hull = is_point_in_convex_hull(point, hull)
+        #     in_hull_mask.append(in_hull)
+        
+        # if np.any(in_hull_mask):
+        #     mask = unassigned_stars.index[in_hull_mask]
+        #     all_stars_df.loc[mask, "constellation_id"] = cluster_id
+        #     print(f"Constellation {cluster_id}: Assigned {np.sum(in_hull_mask)} stars from inside the convex hull")
+    
+    # Then, assign stars not in any convex hull to the nearest constellation
+    # print("\nAssigning stars outside convex hulls...")
+    
+    # unassigned_stars = all_stars_df[all_stars_df["constellation_id"] == -1]
+    
+    # if len(unassigned_stars) > 0:
+    #     print(f"There are {len(unassigned_stars)} unassigned stars, will assign to the nearest constellation")
+        
+    #     for idx, (_, star) in enumerate(unassigned_stars.iterrows()):
+    #         point = [star["ra_deg"], star["dec_deg"]]
+    #         closest_hull_idx = find_closest_convex_hull(point, hulls)
+            
+    #         if closest_hull_idx != -1:
+    #             all_stars_df.loc[star.name, "constellation_id"] = constellation_data[closest_hull_idx]["cluster_id"]
+                
+    #             # Print progress every 100 stars
+    #             if (idx + 1) % 100 == 0:
+    #                 print(f"Assigned {idx + 1}/{len(unassigned_stars)} stars")
+    
+    # Update all stars for each constellation
+    for constellation in constellation_data:
+        cluster_id = constellation["cluster_id"]
+        constellation_stars = all_stars_df[all_stars_df["constellation_id"] == cluster_id]
+        constellation["all_stars"] = constellation_stars
+        
+        # Calculate constellation center
+        center_ra, center_dec = calculate_spherical_center(constellation_stars["ra_deg"], constellation_stars["dec_deg"])
+        constellation["center_ra"] = center_ra
+        constellation["center_dec"] = center_dec
+        
+    print(f"Constellation {cluster_id}: Total {len(constellation_stars)} stars")
+    
+    
+    print("\n--- Step 5: Recalculate FINAL Convex Hulls (including all stars) ---")
+    # for constellation in constellation_data:
+    #     all_coords = constellation["all_stars"][["ra_deg", "dec_deg"]].values
+    #     if len(all_coords) >= 3:
+    #         try:
+    #             # 为包含所有恒星的星座集合，计算最终的凸包
+    #             new_hull = ConvexHull(all_coords)
+    #             constellation["final_hull"] = new_hull
+    #         except:
+    #             print(f"Warning: Cannot recalculate FINAL convex hull for constellation {constellation['cluster_id']}")
+    #             constellation["final_hull"] = constellation["hull"] # Fallback to initial hull
+    #     else:
+    #         print(f"Warning: Not enough points for FINAL convex hull for constellation {constellation['cluster_id']}")
+    #         constellation["final_hull"] = constellation["hull"] # Fallback to initial hull
+    print("\n--- Step 5: Recalculate FINAL Convex Hulls (including all stars) ---")
+    for constellation in constellation_data:
+        all_coords = constellation["all_stars"][["ra_deg", "dec_deg"]].values
+        if len(all_coords) >= 3:
+            try:
+                # 为包含所有恒星的星座集合，计算最终的凸包
+                new_hull = ConvexHull(all_coords)
+                
+                # --- 开始修改 ---
+                # 获取凸包顶点的坐标
+                hull_points = all_coords[new_hull.vertices]
+                
+                # 计算凸包的中心点
+                center = np.mean(hull_points, axis=0)
+                
+                # 计算每个顶点相对于中心点的角度
+                angles = np.arctan2(hull_points[:, 1] - center[1], hull_points[:, 0] - center[0])
+                
+                # 按角度对顶点索引进行排序（逆时针顺序）
+                sorted_indices = np.argsort(angles)
+                
+                # 存储排序后的顶点索引，而不是尝试修改 ConvexHull 对象
+                constellation["ordered_vertices_indices"] = new_hull.vertices[sorted_indices]
+                # --- 修改结束 ---
+                
+                constellation["final_hull"] = new_hull
+
+            except Exception as e:
+                print(f"Warning: Cannot recalculate FINAL convex hull for constellation {constellation['cluster_id']}. Error: {e}")
+                constellation["final_hull"] = constellation["hull"] # Fallback to initial hull
+                # 如果失败，也应该确保 'ordered_vertices_indices' 键存在
+                if "hull" in constellation:
+                    constellation["ordered_vertices_indices"] = constellation["hull"].vertices
+        else:
+            print(f"Warning: Not enough points for FINAL convex hull for constellation {constellation['cluster_id']}")
+            constellation["final_hull"] = constellation["hull"] # Fallback to initial hull
+            # 如果失败，也应该确保 'ordered_vertices_indices' 键存在
+            if "hull" in constellation:
+                constellation["ordered_vertices_indices"] = constellation["hull"].vertices
+
+
+    print("\n--- Step 6: Save Constellation Information ---")
+    # 调用函数，保存最终的凸包信息
+    save_constellations_as_tsv(constellation_data, CONSTELLATIONS_TSV_FILE)
+
+    # print("\n--- Step 7: Save Results ---")
+    # Save constellation information
+    results = {}
+
+    for constellation in constellation_data:
+        cluster_id = constellation["cluster_id"]
+        results[f"Constellation_{cluster_id}"] = {
+            "number_of_core_stars": len(constellation["core_stars"]),
+            "total_number_of_stars": len(constellation["all_stars"]),
+            "center_right_ascension": constellation["center_ra"],
+            "center_declination": constellation["center_dec"],
+            "core_star_HR_numbers": constellation["core_stars"]["HR"].tolist(),
+            "all_star_HR_numbers": constellation["all_stars"]["HR"].tolist()
+        }
+    
+    # Save as JSON
+    with open('constellation_division_results.json', 'w') as f:
+        json.dump(results, f, indent=4)
+   
+    print("\n--- Step 7: Visualization ---")
+    # (Visualization code here would use constellation["final_hull"] for plotting boundaries)
+    
+    print("\n--- Step 8: Save Detailed Results to JSON ---")
+    # (JSON saving code here would include constellation["final_hull"] vertices)
+    
+    print("\n--- Processing Complete ---")
+
+if __name__ == "__main__":
+    main()

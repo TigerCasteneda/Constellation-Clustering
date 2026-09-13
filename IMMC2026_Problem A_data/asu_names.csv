@@ -1,0 +1,113 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2025-10-22T01:45:37 [V7.5.2]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2025-10-22T01:45:37	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-out.all=2&-source=V/53A/names&-order=I&-out=HR&-out=Name&-out.all=2&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=7.5.2	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_5053
+#Name: V/53A
+#Title: Catalogue of the Brightest Stars (Ochsenbein+ 1988)
+#INFO	ivoid=ivo://cds.vizier/v/53a	    IVOID of underlying data collection
+#INFO	creator=Ochsenbein F.	    First author or institution
+#INFO	cites=bibcode:1987BICDS..32...83O	    Article or Data origin sources
+#INFO	original_date=1987	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/V/53A	    Dataset landing page
+#INFO	publication_date=2017-10-11	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	V_53A_names:
+#Name: V/53A/names
+#Title: Star names / Noms des etoiles
+#Column	HR	(I4)	Bright Star number	[ucd=]
+#Column	Name	(a12)	Common name of the star / Nom usuel	[ucd=]
+HR;Name
+ ;
+----;------------
+ 897;Acamar
+ 472;Achernar
+4730;Acrux
+2618;Adara
+5267;Agena
+5191;Alcaid
+5062;Alcor
+1165;Alcyone
+1457;Aldebaran
+8162;Alderamin
+  39;Algenib
+ 936;Algol
+2421;Alhena
+4905;Alioth
+ 603;Almach
+8425;Alnair
+1903;Alnilam
+3748;Alphard
+5793;Alphecca
+  15;Alpheratz
+7602;Alshain
+7557;Altair
+6134;Antares
+5340;Arcturus
+1865;Arneb
+1178;Atlas
+1790;Bellatrix
+2061;Betelgeuse
+2326;Canopus
+1708;Capella
+  21;Caph
+2890;Castor
+7924;Deneb
+4534;Denebola
+4301;Dubhe
+1142;Electra
+1791;Elnath
+8308;Enif
+6705;Etamin
+8728;Fomalhaut
+ 617;Hamal
+5506;Izar
+5563;Kochab
+1149;Maia
+8781;Markab
+4660;Megrez
+ 911;Menkar
+4295;Merak
+1156;Merope
+1852;Mintaka
+ 681;Mira
+ 337;Mirach
+1017;Mirfak
+5054;Mizar
+3165;Naos
+1829;Nihal
+ 424;North star
+7121;Nunki
+4554;Phecda
+ 424;Polaris
+2990;Pollux
+2943;Procyon
+6406;Rasalgethi
+6556;Rasalhague
+3982;Regulus
+1713;Rigel
+8414;Sadalmelik
+2004;Saiph
+8775;Scheat
+ 168;Schedar
+6527;Shaula
+2491;Sirius
+5056;Spica
+7525;Tarazed
+1145;Taygete
+5291;Thuban
+5854;Unukalhai
+7001;Vega
+4932;Vindemiatrix
+1231;Zaurak
+

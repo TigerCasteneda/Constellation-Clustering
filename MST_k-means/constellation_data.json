@@ -1,0 +1,497 @@
+[
+    {
+        "filename": "constellation_01.png",
+        "file_path": "code\\constellation_images\\constellation_01.png",
+        "chinese_name": "白虎",
+        "visual_description": "西方之神，主杀伐，性威猛",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_03.png",
+        "file_path": "code\\constellation_images\\constellation_03.png",
+        "chinese_name": "麒麟",
+        "visual_description": "仁兽，麋身牛尾一角，不履生虫，不折生草",
+        "coherence_score": 6,
+        "shape_type": "square",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_00.png",
+        "file_path": "code\\constellation_images\\constellation_00.png",
+        "chinese_name": "凤凰",
+        "visual_description": "五彩之鸟，首文曰德，翼文曰义，见则天下安宁",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_02.png",
+        "file_path": "code\\constellation_images\\constellation_02.png",
+        "chinese_name": "烛龙",
+        "visual_description": "人面蛇身，赤色，身长千里，睁眼为昼，闭眼为夜",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_04.png",
+        "file_path": "code\\constellation_images\\constellation_04.png",
+        "chinese_name": "饕餮",
+        "visual_description": "羊身人面，目在腋下，虎齿人爪，贪食无厌",
+        "coherence_score": 6,
+        "shape_type": "square",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_09.png",
+        "file_path": "code\\constellation_images\\constellation_09.png",
+        "chinese_name": "相柳",
+        "visual_description": "九头蛇身，食于九土，所到之处皆为泽国",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_05.png",
+        "file_path": "code\\constellation_images\\constellation_05.png",
+        "chinese_name": "玄武",
+        "visual_description": "龟蛇合体，北方之神，主风雨",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_08.png",
+        "file_path": "code\\constellation_images\\constellation_08.png",
+        "chinese_name": "陆吾",
+        "visual_description": "人面虎身九尾，司天之九部及帝之囿时",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_07.png",
+        "file_path": "code\\constellation_images\\constellation_07.png",
+        "chinese_name": "毕方",
+        "visual_description": "独足之鹤，衔火精在人家作怪，见则邑有讹火",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_06.png",
+        "file_path": "code\\constellation_images\\constellation_06.png",
+        "chinese_name": "旋龟",
+        "visual_description": "鸟首虺尾，佩之不聋，可以为底",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_11.png",
+        "file_path": "code\\constellation_images\\constellation_11.png",
+        "chinese_name": "九婴",
+        "visual_description": "九头水火之怪，能喷水吐火",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_12.png",
+        "file_path": "code\\constellation_images\\constellation_12.png",
+        "chinese_name": "巴蛇",
+        "visual_description": "巨蛇，能吞象，三年后方吐出象骨",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_10.png",
+        "file_path": "code\\constellation_images\\constellation_10.png",
+        "chinese_name": "青鸾",
+        "visual_description": "西王母信使，常伴西王母左右",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_14.png",
+        "file_path": "code\\constellation_images\\constellation_14.png",
+        "chinese_name": "狌狌",
+        "visual_description": "状如禺而白耳，伏行人走，知人名",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_13.png",
+        "file_path": "code\\constellation_images\\constellation_13.png",
+        "chinese_name": "穷奇",
+        "visual_description": "状如虎，有翼，食人从首始",
+        "coherence_score": 6,
+        "shape_type": "square",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_17.png",
+        "file_path": "code\\constellation_images\\constellation_17.png",
+        "chinese_name": "鹿蜀",
+        "visual_description": "状如马而白首，其文如虎而赤尾，其音如谣",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_16.png",
+        "file_path": "code\\constellation_images\\constellation_16.png",
+        "chinese_name": "驺吾",
+        "visual_description": "大若虎，五彩毕具，尾长于身，乘之日行千里",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_18.png",
+        "file_path": "code\\constellation_images\\constellation_18.png",
+        "chinese_name": "长蛇",
+        "visual_description": "身长百丈，声如鼓柝，见则大旱",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_19.png",
+        "file_path": "code\\constellation_images\\constellation_19.png",
+        "chinese_name": "修蛇",
+        "visual_description": "巨蛇，能吞鹿，居于洞庭湖",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_15.png",
+        "file_path": "code\\constellation_images\\constellation_15.png",
+        "chinese_name": "商羊",
+        "visual_description": "一足鸟，能招大雨",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_24.png",
+        "file_path": "code\\constellation_images\\constellation_24.png",
+        "chinese_name": "酸与",
+        "visual_description": "状如蛇，四翼六目三足，其鸣自詨",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_22.png",
+        "file_path": "code\\constellation_images\\constellation_22.png",
+        "chinese_name": "比翼鸟",
+        "visual_description": "一目一翼，不比不飞，见则吉良",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_23.png",
+        "file_path": "code\\constellation_images\\constellation_23.png",
+        "chinese_name": "天狗",
+        "visual_description": "状如狸而白首，其音如榴榴，可以御凶",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_21.png",
+        "file_path": "code\\constellation_images\\constellation_21.png",
+        "chinese_name": "开明兽",
+        "visual_description": "身大类虎而九首，皆人面，东向立昆仑上",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_20.png",
+        "file_path": "code\\constellation_images\\constellation_20.png",
+        "chinese_name": "狸力",
+        "visual_description": "状如豚，有距，其音如狗吠，见则其县多土功",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_26.png",
+        "file_path": "code\\constellation_images\\constellation_26.png",
+        "chinese_name": "九尾狐",
+        "visual_description": "状如狐而九尾，其音如婴儿，能食人",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_29.png",
+        "file_path": "code\\constellation_images\\constellation_29.png",
+        "chinese_name": "鯥",
+        "visual_description": "状如牛，陵居，蛇尾有翼，其羽在魼下",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_25.png",
+        "file_path": "code\\constellation_images\\constellation_25.png",
+        "chinese_name": "蛊雕",
+        "visual_description": "状如雕而有角，其音如婴儿之音，是食人",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_28.png",
+        "file_path": "code\\constellation_images\\constellation_28.png",
+        "chinese_name": "跂踵",
+        "visual_description": "状如鸮，一足彘尾，见则其国大疫",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_27.png",
+        "file_path": "code\\constellation_images\\constellation_27.png",
+        "chinese_name": "猰貐",
+        "visual_description": "龙首，居弱水中，食人",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_32.png",
+        "file_path": "code\\constellation_images\\constellation_32.png",
+        "chinese_name": "九头鸟",
+        "visual_description": "色赤，似鸭，九头皆鸣",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_33.png",
+        "file_path": "code\\constellation_images\\constellation_33.png",
+        "chinese_name": "梼杌",
+        "visual_description": "状如虎而犬毛，人面虎足猪口牙",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_31.png",
+        "file_path": "code\\constellation_images\\constellation_31.png",
+        "chinese_name": "鹓鶵",
+        "visual_description": "似凤，非梧桐不止，非练实不食，非醴泉不饮",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_30.png",
+        "file_path": "code\\constellation_images\\constellation_30.png",
+        "chinese_name": "延维",
+        "visual_description": "人首蛇身，长如车辕，见之者霸",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_34.png",
+        "file_path": "code\\constellation_images\\constellation_34.png",
+        "chinese_name": "狰",
+        "visual_description": "状如赤豹，五尾一角，其音如击石",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_36.png",
+        "file_path": "code\\constellation_images\\constellation_36.png",
+        "chinese_name": "化蛇",
+        "visual_description": "人面豺身，鸟翼蛇行，其音如叱呼",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_38.png",
+        "file_path": "code\\constellation_images\\constellation_38.png",
+        "chinese_name": "九凤",
+        "visual_description": "九首人面鸟身，司天之九部",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_37.png",
+        "file_path": "code\\constellation_images\\constellation_37.png",
+        "chinese_name": "混沌",
+        "visual_description": "状如犬，长毛四足，有目而不见",
+        "coherence_score": 6,
+        "shape_type": "square",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_35.png",
+        "file_path": "code\\constellation_images\\constellation_35.png",
+        "chinese_name": "讙",
+        "visual_description": "状如狸，一目而三尾，其音如夺百声",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_39.png",
+        "file_path": "code\\constellation_images\\constellation_39.png",
+        "chinese_name": "狡",
+        "visual_description": "状如犬而豹文，其角如牛，其音如吠犬",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_40.png",
+        "file_path": "code\\constellation_images\\constellation_40.png",
+        "chinese_name": "獙獙",
+        "visual_description": "状如狐而有翼，其音如鸿雁",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_44.png",
+        "file_path": "code\\constellation_images\\constellation_44.png",
+        "chinese_name": "玄鸟",
+        "visual_description": "燕也，春分而来，秋分而去",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_43.png",
+        "file_path": "code\\constellation_images\\constellation_43.png",
+        "chinese_name": "螭龙",
+        "visual_description": "无角之龙，性好水，常居于深渊",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_42.png",
+        "file_path": "code\\constellation_images\\constellation_42.png",
+        "chinese_name": "灌灌",
+        "visual_description": "状如鸠，其音若呵，佩之不惑",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_41.png",
+        "file_path": "code\\constellation_images\\constellation_41.png",
+        "chinese_name": "应龙",
+        "visual_description": "有翼之龙，曾助黄帝战蚩尤，能呼风唤雨",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_46.png",
+        "file_path": "code\\constellation_images\\constellation_46.png",
+        "chinese_name": "腾蛇",
+        "visual_description": "能兴云雾而游其中，无足而飞",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_45.png",
+        "file_path": "code\\constellation_images\\constellation_45.png",
+        "chinese_name": "颙",
+        "visual_description": "状如枭，人面四目而有耳，见则天下大旱",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_48.png",
+        "file_path": "code\\constellation_images\\constellation_48.png",
+        "chinese_name": "狸狌",
+        "visual_description": "善伏，能捕鼠",
+        "coherence_score": 6,
+        "shape_type": "shape",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_47.png",
+        "file_path": "code\\constellation_images\\constellation_47.png",
+        "chinese_name": "孟极",
+        "visual_description": "状如豹而文题白身",
+        "coherence_score": 6,
+        "shape_type": "circle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_49.png",
+        "file_path": "code\\constellation_images\\constellation_49.png",
+        "chinese_name": "虺",
+        "visual_description": "小蛇，五百年化为蛟，蛟千年化为龙",
+        "coherence_score": 8,
+        "shape_type": "line",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_50.png",
+        "file_path": "code\\constellation_images\\constellation_50.png",
+        "chinese_name": "重明鸟",
+        "visual_description": "双睛，状如鸡，鸣似凤，能逐猛兽",
+        "coherence_score": 7,
+        "shape_type": "arc",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_53.png",
+        "file_path": "code\\constellation_images\\constellation_53.png",
+        "chinese_name": "青鸟",
+        "visual_description": "三足神鸟，为西王母取食",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_54.png",
+        "file_path": "code\\constellation_images\\constellation_54.png",
+        "chinese_name": "白泽",
+        "visual_description": "能言，知万物之情，通晓鬼神之事",
+        "coherence_score": 6,
+        "shape_type": "square",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_51.png",
+        "file_path": "code\\constellation_images\\constellation_51.png",
+        "chinese_name": "赤鱬",
+        "visual_description": "人面鱼身，其音如鸳鸯，食之不疥",
+        "coherence_score": 5,
+        "shape_type": "cluster",
+        "recognition_method": "filename/random"
+    },
+    {
+        "filename": "constellation_52.png",
+        "file_path": "code\\constellation_images\\constellation_52.png",
+        "chinese_name": "三足乌",
+        "visual_description": "日中之精，载日运行",
+        "coherence_score": 7,
+        "shape_type": "triangle",
+        "recognition_method": "filename/random"
+    }
+]
